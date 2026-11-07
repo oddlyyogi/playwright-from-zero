@@ -14,6 +14,7 @@ Every chapter has its own folder under `chapters/` and runs on its own. Pick a c
 |---|---------|--------|
 | 1 | Install Playwright and Run Your First Test | [chapters/01-install-playwright-and-run-your-first-test](chapters/01-install-playwright-and-run-your-first-test) |
 | 2 | Create the Test Framework | [chapters/02-create-the-test-framework](chapters/02-create-the-test-framework) |
+| 3 | Explore the Demo Site: Web and API | [chapters/03-explore-the-demo-site-web-and-api](chapters/03-explore-the-demo-site-web-and-api) |
 
 ## License
 
