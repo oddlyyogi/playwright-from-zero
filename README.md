@@ -13,6 +13,7 @@ Every chapter has its own folder under `chapters/` and runs on its own. Pick a c
 | # | Chapter | Folder |
 |---|---------|--------|
 | 1 | Install Playwright and Run Your First Test | [chapters/01-install-playwright-and-run-your-first-test](chapters/01-install-playwright-and-run-your-first-test) |
+| 2 | Create the Test Framework | [chapters/02-create-the-test-framework](chapters/02-create-the-test-framework) |
 
 ## License
 
