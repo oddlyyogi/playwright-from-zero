@@ -1,0 +1,5 @@
+[
+  { "term": "pliers", "expected": "Combination Pliers" },
+  { "term": "hammer", "expected": "Thor Hammer" },
+  { "term": "saw", "expected": "Wood Saw" }
+]
