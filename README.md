@@ -20,6 +20,7 @@ Every chapter has its own folder under `chapters/` and runs on its own. Pick a c
 | 7 | Automate Hard Pages | [chapters/07-automate-hard-pages](chapters/07-automate-hard-pages) |
 | 8 | Automate API Tests | [chapters/08-automate-api-tests](chapters/08-automate-api-tests) |
 | 9 | Automate Tests from Database Values | [chapters/09-automate-tests-from-database-values](chapters/09-automate-tests-from-database-values) |
+| 10 | Read Your Test Results: HTML, Mochawesome and Allure Reports | [chapters/10-read-your-test-results-html-mochawesome-and-allure-reports](chapters/10-read-your-test-results-html-mochawesome-and-allure-reports) |
 
 ## License
 
