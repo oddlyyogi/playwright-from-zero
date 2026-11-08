@@ -1,0 +1,38 @@
+# Runs the pipeline from chapter 12 on the chapter 12 project.
+# In your own project, the workflow file sits at the top of the project and needs no working-directory.
+name: Chapter 12 - Playwright Tests
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'chapters/12-run-tests-in-github-eslint-typescript-checks-and-ci-pipeline/**', '.github/workflows/chapter-12.yml' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'chapters/12-run-tests-in-github-eslint-typescript-checks-and-ci-pipeline/**', '.github/workflows/chapter-12.yml' ]
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: chapters/12-run-tests-in-github-eslint-typescript-checks-and-ci-pipeline
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install dependencies
+      run: npm ci
+    - name: Lint
+      run: npm run lint
+    - name: Type check
+      run: npm run typecheck
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps chromium
+    - name: Run Playwright tests
+      run: npx playwright test --project=chromium
+    - uses: actions/upload-artifact@v4
+      if: ${{ !cancelled() }}
+      with:
+        name: playwright-report
+        path: chapters/12-run-tests-in-github-eslint-typescript-checks-and-ci-pipeline/playwright-report/
+        retention-days: 30
