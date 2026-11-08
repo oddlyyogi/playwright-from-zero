@@ -18,6 +18,7 @@ Every chapter has its own folder under `chapters/` and runs on its own. Pick a c
 | 5 | Automate Web Tests by Hand | [chapters/05-automate-web-tests-by-hand](chapters/05-automate-web-tests-by-hand) |
 | 6 | Automate Faster with Codegen, MCP and Playwright CLI | [chapters/06-automate-faster-with-codegen-mcp-and-playwright-cli](chapters/06-automate-faster-with-codegen-mcp-and-playwright-cli) |
 | 7 | Automate Hard Pages | [chapters/07-automate-hard-pages](chapters/07-automate-hard-pages) |
+| 8 | Automate API Tests | [chapters/08-automate-api-tests](chapters/08-automate-api-tests) |
 
 ## License
 
