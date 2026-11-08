@@ -16,6 +16,7 @@ Every chapter has its own folder under `chapters/` and runs on its own. Pick a c
 | 2 | Create the Test Framework | [chapters/02-create-the-test-framework](chapters/02-create-the-test-framework) |
 | 3 | Explore the Demo Site: Web and API | [chapters/03-explore-the-demo-site-web-and-api](chapters/03-explore-the-demo-site-web-and-api) |
 | 5 | Automate Web Tests by Hand | [chapters/05-automate-web-tests-by-hand](chapters/05-automate-web-tests-by-hand) |
+| 6 | Automate Faster with Codegen, MCP and Playwright CLI | [chapters/06-automate-faster-with-codegen-mcp-and-playwright-cli](chapters/06-automate-faster-with-codegen-mcp-and-playwright-cli) |
 
 ## License
 
